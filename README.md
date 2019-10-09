@@ -17,3 +17,7 @@ ran from within the root folder. default name is `image-download`
 and finally run the file (I didn't create a script entry point to save time, but it could be added)
 
     python src/imagedownload/main.py
+
+## Documentation
+
+I added a pdf file with some documentation here: [EagleEyeNetwork(24hr).pdf](docs/EagleEyeNetwork(24hr).pdf)
