@@ -33,6 +33,7 @@ def fetch_image(image):
 
 #fetch them all!
 #threads = [gevent.spawn(fetch_image, val, index) for index, val in enumerate(img_list)]
+#threads = [gevent.spawn(fetch_image, image) for image in img_list]
 #gevent.joinall(threads)
 
 #fetch them using a pool of 5 greenlets
