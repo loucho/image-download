@@ -1,0 +1,12 @@
+# The name of the environment matching the repository name
+name: image-download
+# 
+channels:
+- conda-forge
+- defaults
+# 
+dependencies:
+- python=3.7
+- pip
+- gevent
+- requests
